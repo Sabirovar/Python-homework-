@@ -31,6 +31,15 @@ result = [first, middle, last]
 
 print("New list:", result)
 
+# 4. Create a list of your five favorite movies and convert it into a tuple.
+
+favorite_movies = ["lalaland", "dekster", "interstellar", "the lawyer", "1+1"]
+
+movies_tuple = tuple(favorite_movies)
+
+print("List:", favorite_movies)
+print("Tuple:", movies_tuple)
+
 # 5.Given a list of cities, check if "Paris" is in the list and print the result.
 
 cities = ["London", "New York", "Tokyo", "Paris", "Berlin"]
